@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Epilogue', sans-serif;
+    color: hsl(0, 0%, 8%);
+}
+
+header{
+    min-height: 10vh;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: hsl(0, 0%, 8%);
+}
+
+.nav-bar{
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.front-nav{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.front-nav h1{
+    font-size: 3rem;
+}
+
+.end-nav{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
