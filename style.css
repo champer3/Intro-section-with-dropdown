@@ -177,3 +177,12 @@ main{
     z-index: 1;
 }
 
+.burger span{
+    margin: 2rem;
+    background: black;
+    border: 1px solid red;
+}
+
+@media only screen and (max-width: 600px) {
+    
+  }
